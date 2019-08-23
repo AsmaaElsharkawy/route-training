@@ -1,0 +1,231 @@
+*{
+	font-family: 'Poppins', sans-serif ; 
+
+}
+.navbar  .navbar-brand{
+	font-size: 18px;
+    margin-left: 10px;
+    padding: 0px;
+}
+.navbar-dark .navbar-toggler {
+	padding: 5px;
+    font-color: #FFFFFF;
+    border: 1px transparent;
+}
+.navbar  .navbar-brand img{
+	width: 70px;
+    height: 70px;
+    padding: 0px ;
+    
+}
+.navbar-dark .navbar-nav .active>.nav-link{
+	font-size: 14px;
+}
+
+#home{
+	background-image: url(../images/cover.jpg);
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#home .navbar{
+    background-color: black !important;
+    height: 70px;
+    padding: 0px 10px;
+}
+
+
+
+#home .home-cont h1{
+	font-size: 56px;
+	    text-shadow: 0px 5px 10px #af2424;
+color: #FFFFFF;
+font-weight: bolder;
+}
+#home .home-cont h3{
+	font-size: 24px;
+	color: #FFFFFF;
+}
+
+
+#home .overlay{
+	background:rgba(236, 51, 55, 0.7);
+	height: 80vh;   
+}
+ #home .mybotton{
+           padding: 10px 5px; 
+            font-size : 15px;
+        width: 15%;
+     border: 2px solid #FFFFFF;;
+     color: #FFFFFF;
+    }
+
+
+#about .about-text{
+
+}
+#about .about-intro{
+	
+}
+#work .projects{
+	background-image: url(../images/project-counter.jpg);
+background-position: top;
+background-size: cover;
+}
+
+.nav-tabs .nav-link{
+	border: none;
+	  text-decoration: none;
+
+}
+#portfolio a{
+	
+	  text-decoration: none;
+	  color: black;
+
+}
+
+.contact{
+	background-image: url(../images/client-testimonial.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#about h2 , #work h2 , #portfolio h2 , #contact h2{
+	font-size: 35px;
+	font-weight: bold;
+}
+#about p , #work p , #portfolio p , #contact p{
+	color: #777777;
+}
+
+
+#about a , #contact a{
+	
+	  text-decoration: none;
+	  color: #444444;
+
+}
+#about .social .list-group-item , #contact .social .list-group-item{
+	margin-left: 10px;
+	border: 1px solid #444444;
+	padding: 8px 10px;
+}
+
+
+.progress-bar{
+	background-color: #ec3237;
+
+}
+
+.progress{
+	height: 10px
+}
+#about .progress-cont span{
+	font-size: 14px;
+}
+#work{
+	background: #f5f5f5;
+}
+#work h4{
+	font-size: 18px;
+	font-weight: bolder;
+}
+#work .fas{
+	background:#EEEEEE;
+	padding: 10px;
+}
+
+#work .projects .fas{
+	color:#ec3237;
+	background: transparent;
+	padding: 20px;
+	font-size: 22px;
+}
+#work .projects h5{
+font-size: 14px
+}
+
+#work .projects h6{
+font-size: 42px;
+color: #ffffff
+}
+#work .projects h3{
+font-size: 18px;
+color:#ec3237;
+padding-bottom: 10%;
+}
+
+#work .projects .card{
+border: 0.5px solid #444444 !important;
+}
+
+#portfolio .nav-tabs .nav-item a{
+	border: 1px solid #444444;
+	margin-left: 5px;
+}
+
+#portfolio .nav-tabs .nav-item a:hover{
+	border: 2px solid #ec3237;
+	color:#ec3237;
+}
+
+#portfolio .portfolio-card .portfolio-image{
+	position: relative;
+}
+#portfolio .portfolio-card .portfolio-image .fas{
+	position: absolute;
+	bottom: 5%;
+	left: 45%;
+	background: black;
+	color: white;
+	width: 30px;
+	height: 30px;
+}
+
+#portfolio .modal-content{
+	height: 90vh;
+	width: 60vw;
+	
+}
+
+#contact  h5{
+	color:#ec3237 !important; 
+}
+#contact span{
+	color:white; 
+}
+
+@media (max-width: 480px) 
+{
+        #home .overlay{	
+	height: 100vh;   
+                }
+    
+    #home .mybotton{
+
+        width: 70%;
+    }
+    
+     #home{
+	 background-position:  67% center;
+}
+    
+    #home .home-cont h1{
+	font-size: 24px;
+    padding-top: 6em;
+    font-weight: bolder;
+
+}
+#home .home-cont h3{
+	font-size: 18px;
+	
+}
+  
+}
+
+
+
+
+
+
